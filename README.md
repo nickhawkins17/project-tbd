@@ -19,7 +19,7 @@ pip install -r dev-requirements.txt
 pip install -r requirements.txt
 ```
 
-### Usage
+## Usage
 
 ```text
 python src/main.py -h                   
