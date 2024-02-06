@@ -1,5 +1,9 @@
 # Python Project
-Let's see where this project goes. 
+Let's see where this project goes.
+
+## Prerequisites
+
+* [Python v3.12.1](https://www.python.org/downloads/release/python-3121/)
 
 ## Setup
 
@@ -14,7 +18,9 @@ Install dependencies:
 ```bash
 # Development
 pip install -r dev-requirements.txt
+```
 
+```bash
 # Production
 pip install -r requirements.txt
 ```
@@ -30,6 +36,10 @@ Run the project.
 optional arguments:
   -h, --help   show this help message and exit
 ```
+
+## Contribute
+
+See [CONTRIBUTING.md](docs/CONTRIBUTING.md).
 
 ## Author
 
