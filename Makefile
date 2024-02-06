@@ -13,12 +13,11 @@ help:
 
 format:
 	autopep8 -vv --in-place --recursive --max-line-length $(MAX_LINE_LEN) --experimental --aggressive --exclude="${VENV}" $(SRC_DIR) $(TEST_DIR)
-	autoflake --in-place --remove-all-unused-imports --exclude="${VENV}" -r $(PROJECT_NAME) $(TEST_DIR)
-	isort --atomic --line-length $(MAX_LINE_LEN) $(PROJECT_NAME) $(TEST_DIR)
+	autoflake --in-place --remove-all-unused-imports --exclude="${VENV}" -r $(SRC_DIR) $(TEST_DIR)
+	isort --atomic --line-length $(MAX_LINE_LEN) $(SRC_DIR) $(TEST_DIR)
 	black $(SRC_DIR)
 
 lint:
-	# flake8 $(SRC_DIR)
 	black --check --diff $(SRC_DIR)
 	isort --check --diff --line-length $(MAX_LINE_LEN) $(SRC_DIR)
 	pylint --recursive=y . --ignore="$(VENV)" --init-hook='import sys; sys.path.append("$(SRC_DIR)")'
