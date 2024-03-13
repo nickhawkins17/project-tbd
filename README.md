@@ -17,7 +17,7 @@ pip install --upgrade pip
 Install dependencies:
 ```bash
 # Development
-pip install -r dev-requirements.txt
+pip install -r requirements.txt -r dev-requirements.txt
 ```
 
 ```bash
