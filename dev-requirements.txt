@@ -1,8 +1,3 @@
-black
-isort
-mypy
-autopep8
-autoflake
 pytest
 pytest-cov
-pylint
+ruff
