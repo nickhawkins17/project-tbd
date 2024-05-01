@@ -2,6 +2,14 @@
 
 Let's see where this project goes.
 
+## Table of Contents
+- [Prerequisites](#prerequisites)
+- [Setup](#setup)
+- [Usage](#usage)
+- [Repo Structure](#repo-structure)
+- [Docs](#docs)
+- [Author](#author)
+
 ## Prerequisites
 
 - [Python v3.12.1](https://www.python.org/downloads/release/python-3121/)
@@ -40,8 +48,15 @@ optional arguments:
   -h, --help   show this help message and exit
 ```
 
-## Contribute
+## Repo Structure
 
-See [CONTRIBUTING.md](CONTRIBUTING.md).
+- [src](src/): source code
+- [tests](tests/): unit tests
+- [Makefile](Makefile): project scripts (run `make help` for more info)
+
+## Docs
+
+- [CONTRIBUTING](CONTRIBUTING.md): Guidelines for contributing to the project.
+- [LICENSE](LICENSE): The project's license.
 
 ## Author
