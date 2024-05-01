@@ -3,6 +3,7 @@
 Let's see where this project goes.
 
 ## Table of Contents
+
 - [Prerequisites](#prerequisites)
 - [Setup](#setup)
 - [Usage](#usage)
